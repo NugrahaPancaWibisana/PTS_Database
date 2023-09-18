@@ -1,8 +1,8 @@
-mysql -u root -p;
+mysql -u root;
 
-CREATE DATABASE APOTEK_RAISA_MEGA;
+CREATE DATABASE APOTEK_NUGRAHA_PANCA_WIBISANA;
 
-USE APOTEK_RAISA_MEGA;
+USE APOTEK_NUGRAHA_PANCA_WIBISANA;
 
 CREATE TABLE TB_OBAT (kode_obat char (100) PRIMARY KEY, nama_obat varchar (100) NOT NULL, jenis varchar (100) NOT NULL, satuan varchar (100) NOT NULL, stok varchar (100) NOT NULL, harga_beli varchar (100) NOT NULL, harga_jual varchar (100) NOT NULL);
 
